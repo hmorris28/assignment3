@@ -55,3 +55,32 @@ body ol li {
     width: 300px
     
 }
+
+header {
+    display: flex; 
+}
+
+header nav {
+    flex: 1; 
+}
+
+header nav ul {
+    display: flex;
+    justify-content: flex-end; 
+}
+
+@media screen and (max-width: 50rem) {
+    header, main, footer
+    {
+        flex-direction: column;
+    }
+}
+
+a {
+    transition: background-color .3s, color .3s; 
+}
+
+
+
+
+
